@@ -1,0 +1,23 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jeff Helman",email = "jeffhelman42@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "my_project", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.30.1"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
