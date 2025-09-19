@@ -3,7 +3,7 @@ name = "my-project"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Jeff Helman",email = "jeffhelman42@gmail.com"}
+    {name = "42DaysOfAI Team",email = "agentic.dudes@42daysofAI.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
@@ -12,7 +12,6 @@ dependencies = [
 
 [tool.poetry]
 packages = [{include = "my_project", from = "src"}]
-
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.30.1"
